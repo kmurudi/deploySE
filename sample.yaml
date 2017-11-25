@@ -1,0 +1,9 @@
+---
+- hosts: service
+  become: yes
+  gather_facts: no
+
+  tasks:
+  
+  - name: say hi
+    command: echo HI
